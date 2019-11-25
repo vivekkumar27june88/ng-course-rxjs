@@ -8,6 +8,7 @@ import { Component } from "@angular/core";
 export class AppComponent {
   title = "ng-course-rxjs";
   menuItems = [
+    /* --------------------------- Observable Creation -------------------------- */
     {
       link: "create-observable",
       label: "Create Observable",
@@ -22,6 +23,12 @@ export class AppComponent {
       link: "create-observable-iii",
       label: "Observable from HTMl event",
       tooltip: "Observable from HTMl event"
+    },
+    /* -------------------------------- Operators ------------------------------- */
+    {
+      link: "operator-simple",
+      label: "How to use Operator",
+      tooltip: "First example for demonstrating operator syntax"
     }
   ];
 }
